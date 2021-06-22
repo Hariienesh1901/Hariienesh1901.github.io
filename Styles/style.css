@@ -1,42 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 
 body {
-	background-color: black;
+    margin: 0;
+    background-color: black;
 }
 
-.Greetings {
-	color: darkblue;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 20px;
-	font-family: 'Goblin One', cursive;
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
 }
 
-.Constructioninfo {
-	color: #4a0000;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 30px;
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-.aboutme h3 {
-	color: #e5ff00;
-	font-size: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.topnav a:hover {
+    background-color: darkcyan;
+    color: darkblue;
 }
 
-.aboutme p {
-	color: red;
-	font-size: 25px;
-	font-family: cursive;
+.topnav a.active {
+    background-color: blueviolet;
+    color: black;
 }
 
-.avaiblewebs a {
-	color: #00ff08;
-	font-size: 50px;
-	word-spacing: all;
-} 
+.home h1 {
+    color: darkred;
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    font-size: 100px;
+}
+
+.home img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+    text-align: center;
+    font-size: 80px;
+}
+
+#projects ul li a {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#about h2 {
+    color: indigo;
+    font-size: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#about p {
+    color: gray;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact h3 {
+    color: navy;
+    font-size: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact h4 {
+    color: darkslateblue;
+    font-size: 50px;
+}
+
+#contact i {
+    color: red;
+    font-size: 100px;
+}
